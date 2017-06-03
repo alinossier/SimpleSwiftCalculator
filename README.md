@@ -5,10 +5,12 @@ Feel free to fork and send over your pull requests!
 ![Animated Gif](Ressources/GithubGif.gif)
 
 # Implementation
-To add SimpleSwiftCalculator to your project make sure that your receiving `UIViewController` class implements the `PushResultsDelegate` protocol by adding the following function:
+To add SimpleSwiftCalculator import the `SimpleSwiftCalculator.swift` into to your project and make sure that your receiving `UIViewController` class implements the `PushResultsDelegate` protocol by adding the following function:
 ```swift
-    func PushValueFromCalculator(value: String){
-        // value is a string value of the returned result
+    class ViewController: UIViewController, PushResultsDelegate {
+         func PushValueFromCalculator(value: String){
+            // value is a string value of the returned result
+         }
     }
 ```
 You can then display the calculator whenever you want:
