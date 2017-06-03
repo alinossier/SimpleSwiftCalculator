@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "d6230ccefd0e4f3934ba10ee83cb849b"
+build_time: [549826346, 837393000]
+inputs:
+  "/Users/antoninlinossier1/Desktop/05-APPS/SimpleSwiftCalculator/SimpleSwiftCalculator/ViewController.swift": [549826346, 0]
+  "/Users/antoninlinossier1/Desktop/05-APPS/SimpleSwiftCalculator/SimpleSwiftCalculator/SimpleSwiftCalculator.swift": [549826200, 0]
+  "/Users/antoninlinossier1/Desktop/05-APPS/SimpleSwiftCalculator/SimpleSwiftCalculator/AppDelegate.swift": [549337678, 0]

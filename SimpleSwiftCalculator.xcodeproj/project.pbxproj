@@ -14,6 +14,7 @@
 		0A43B4551EDBB54E00BC39E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A43B4531EDBB54E00BC39E1 /* LaunchScreen.storyboard */; };
 		0A43B4601EDBB54E00BC39E1 /* SimpleSwiftCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A43B45F1EDBB54E00BC39E1 /* SimpleSwiftCalculatorTests.swift */; };
 		0A43B46B1EDBB54E00BC39E1 /* SimpleSwiftCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A43B46A1EDBB54E00BC39E1 /* SimpleSwiftCalculatorUITests.swift */; };
+		0A565FDB1EE3120500778188 /* SimpleSwiftCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A565FDA1EE3120500778188 /* SimpleSwiftCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0A43B4661EDBB54E00BC39E1 /* SimpleSwiftCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSwiftCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A43B46A1EDBB54E00BC39E1 /* SimpleSwiftCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSwiftCalculatorUITests.swift; sourceTree = "<group>"; };
 		0A43B46C1EDBB54E00BC39E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A565FDA1EE3120500778188 /* SimpleSwiftCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleSwiftCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0A43B44A1EDBB54E00BC39E1 /* AppDelegate.swift */,
 				0A43B44C1EDBB54E00BC39E1 /* ViewController.swift */,
+				0A565FDA1EE3120500778188 /* SimpleSwiftCalculator.swift */,
 				0A43B44E1EDBB54E00BC39E1 /* Main.storyboard */,
 				0A43B4511EDBB54E00BC39E1 /* Assets.xcassets */,
 				0A43B4531EDBB54E00BC39E1 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A43B44D1EDBB54E00BC39E1 /* ViewController.swift in Sources */,
+				0A565FDB1EE3120500778188 /* SimpleSwiftCalculator.swift in Sources */,
 				0A43B44B1EDBB54E00BC39E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				0A43B4711EDBB54F00BC39E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A43B4721EDBB54F00BC39E1 /* Build configuration list for PBXNativeTarget "SimpleSwiftCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				0A43B4741EDBB54F00BC39E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A43B4751EDBB54F00BC39E1 /* Build configuration list for PBXNativeTarget "SimpleSwiftCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				0A43B4771EDBB54F00BC39E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
