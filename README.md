@@ -2,8 +2,6 @@
 SimpleSwiftCalculator is a simple and customizable calculator written in Swift that can easily integrate itself in your projects.
 Feel free to fork and send over your pull requests!
 
-![Animated Gif](Ressources/GithubGif.gif)
-
 # Implementation
 To add SimpleSwiftCalculator import the `SimpleSwiftCalculator.swift` into to your project and make sure that your receiving `UIViewController` class complies with the `PushResultsDelegate` protocol by adding the `PushValueFromCalculator` function:
 ```swift
@@ -21,3 +19,7 @@ You can then display the calculator whenever you want:
      CalcInstance.delegate = self
      self.view.addSubview(CalcInstance)
 ```
+
+# Screenshot
+
+![Animated Gif](Ressources/GithubGif.gif)
