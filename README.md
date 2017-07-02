@@ -3,7 +3,7 @@ SimpleSwiftCalculator is a simple and customizable calculator written in Swift t
 Feel free to fork and send over your pull requests!
 
 # Implementation
-To add SimpleSwiftCalculator import the `SimpleSwiftCalculator.swift` into to your project and make sure that your receiving `UIViewController` class complies with the `PushResultsDelegate` protocol by adding the `PushValueFromCalculator` function:
+To add SimpleSwiftCalculator import the `SimpleSwiftCalculator.swift`file into to your project and make sure that your receiving `UIViewController` class complies with the `PushResultsDelegate` protocol by adding the `PushValueFromCalculator` function:
 ```swift
     class ViewController: UIViewController, PushResultsDelegate {
          func PushValueFromCalculator(value: String){
