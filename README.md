@@ -7,7 +7,7 @@ To add SimpleSwiftCalculator import the `SimpleSwiftCalculator.swift`file into t
 ```swift
     class ViewController: UIViewController, PushResultsDelegate {
          func PushValueFromCalculator(value: String){
-            // value is a string value of the returned result
+            // value is a string value of the current operation's result
          }
     }
 ```
